@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Features from './components/Feature'
 import Testimonial from './components/Testimonials'
 import CTA from './components/CTA'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Features/>
     <Testimonial/>
     <CTA/>
+    <Footer/>
 
     </div>
     

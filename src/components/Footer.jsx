@@ -1,10 +1,11 @@
 import React from "react";
 
-import facebook from "../assets/icons/facebook.png";
-import instagram from "../assets/icons/instagram.png";
-import xicon from "../assets/icons/x.png";
-import linkedin from "../assets/icons/linkedin.png";
-import youtube from "../assets/icons/youtube.png";
+import facebook from "../assets/images/facebook.png"
+import instagram from "../assets/images/instagram.png";
+import x from "../assets/images/X.png";
+import linkdin from "../assets/images/linkdin.png";
+import youtube from "../assets/images/youtube.png"
+import logo from "../assets/images/logowp.png"
 
 const Footer = () => {
   return (
@@ -16,14 +17,13 @@ const Footer = () => {
 
           {/* BRAND + NEWSLETTER */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-xl shadow-md flex items-center justify-center font-bold text-lg">
-                do
-              </div>
-              <span className="text-xl font-semibold">List</span>
-            </div>
+            <div className="flex items-center gap-2">
+                      <img src={logo} alt="logowp" className="w-15 h-15" />
+                      
+                    </div>
+            
 
-            <p className="text-sm text-gray-600 mb-4 max-w-xs">
+            <p className="text-sm text-[#000000] mb-4 max-w-xs">
               Subscribe to our newsletter for the latest features and updates
               delivered to you.
             </p>
@@ -39,7 +39,7 @@ const Footer = () => {
               </button>
             </div>
 
-            <p className="text-xs text-gray-500 mt-3 max-w-xs">
+            <p className="text-xs text-[#000000] mt-3 max-w-xs">
               By subscribing, you consent to our Privacy Policy and agree to
               receive updates.
             </p>
@@ -48,7 +48,7 @@ const Footer = () => {
           {/* USEFUL LINKS */}
           <div>
             <h4 className="font-semibold mb-4">Useful Links</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <ul className="space-y-2 text-sm text-[#000000]">
               <li>Home Page</li>
               <li>About Us</li>
               <li>Contact Us</li>
@@ -60,7 +60,7 @@ const Footer = () => {
           {/* RESOURCES */}
           <div>
             <h4 className="font-semibold mb-4">Resources</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
+            <ul className="space-y-2 text-sm text-[#000000]">
               <li>Help Center</li>
               <li>User Guide</li>
               <li>Community Forum</li>
@@ -72,24 +72,27 @@ const Footer = () => {
           {/* SOCIAL WITH IMAGES */}
           <div>
             <h4 className="font-semibold mb-4">Connect With Us</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
-              <li className="flex items-center gap-3">
+            <ul className="space-y-3 text-sm text-[#000000]">
+              <li className="flex items-center gap-2">
                 <img src={facebook} alt="Facebook" className="w-5 h-5" />
                 Facebook
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-2">
                 <img src={instagram} alt="Instagram" className="w-5 h-5" />
                 Instagram
               </li>
-              <li className="flex items-center gap-3">
-                <img src={xicon} alt="X" className="w-5 h-5" />
+              <li className="flex items-center gap-2">
+                <img src={x} alt="X" className="w-5 h-5"  />
                 X
               </li>
-              <li className="flex items-center gap-3">
-                <img src={linkedin} alt="LinkedIn" className="w-5 h-5" />
+
+
+              <li className="flex items-center gap-2">
+                <img src={linkdin} alt="linkdIn" className="w-5 h-5" />
                 LinkedIn
               </li>
-              <li className="flex items-center gap-3">
+
+              <li className="flex items-center gap-2">
                 <img src={youtube} alt="YouTube" className="w-5 h-5" />
                 YouTube
               </li>
@@ -99,7 +102,7 @@ const Footer = () => {
         </div>
 
         {/* BOTTOM BAR */}
-        <div className="border-t border-gray-200 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-600">
+        <div className="border-t border-black-200 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-[#000000]">
           <p>© 2024 Osumare. All rights reserved.</p>
 
           <div className="flex gap-6 flex-wrap justify-center">
