@@ -26,3 +26,6 @@ html {
         @apply max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto
     }
 }
+* {
+     font-family: 'roboto';
+}
