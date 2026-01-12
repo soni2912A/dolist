@@ -5,12 +5,12 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white shadow-sm px-6 md:px-16 py-4">
+    <nav className=" bg-white layout">
       <div className="flex items-center justify-between">
         
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src={logo} alt="logowp" className="w-full" />
+          <img src={logo} alt="logowp" className="" />
           
         </div>
 

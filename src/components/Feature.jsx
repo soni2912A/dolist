@@ -34,7 +34,7 @@ const features = [
 
 function Features() {
   return (
-    <section className="bg-white py-20 px-6 md:px-10 lg:px-16">
+    <section className="bg-white py-20 px-6 layout">
       
       {/* HEADING */}
       <div className="max-w-4xl mx-auto text-center">

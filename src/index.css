@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+html {
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('./assets/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('./assets/fonts/roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+
+@layer base {
+    .layout {
+        @apply max-w-[95%] md:max-w-[90%] lg:max-w-[85%] mx-auto
+    }
+}

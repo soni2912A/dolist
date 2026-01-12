@@ -3,8 +3,8 @@ import mobile from "../assets/images/mobile.png";
 
 const CTA = () => {
   return (
-    <section className="w-full bg-white py-16 px-6 overflow-hidden">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
+    <section className="w-full bg-white py-16 px-6 overflow-hidden layout">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8  items-center">
         
         {/* LEFT IMAGE */}
         <div className="flex justify-center md:justify-end">
@@ -13,7 +13,7 @@ const CTA = () => {
             alt="mobile"
             className="
               w-full
-              max-w-md md:max-w-lg
+              max-w-md md:max-w-2xl
               object-contain
               md:-ml-20
             "
